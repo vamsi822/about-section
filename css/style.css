@@ -62,18 +62,21 @@
     background-color: #a52a5a;
     color: #fff;
 }
+
 .content-section .social{
     margin: 40px 40px;
 }
-.content-section.social i{
-    color: #a52a2a;
-    font-size: 30px;
-    padding: 0px 10px;
 
+.content-section .social i{
+    font-size: 40px;
+    column-rule-color: #a52a2a;
+    padding: 0 12px;
 }
+
 .content-section .social i:hover{
     color:#3d3d3d;
 }
+
 @media  screen and (max-width:768px){
     .container{
         width: 80%;
